@@ -1,0 +1,17 @@
+{
+  "name": "isd-documents-generator",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Генератор документов УСБ МВД (React + Vite) с AI-заполнением по ситуации и локальной базой laws.md",
+  "scripts": {
+    "build": "npm --prefix web install && npm --prefix web run build",
+    "prestart": "npm run build",
+    "start": "node server.js",
+    "serve": "node server.js",
+    "dev:server": "node server.js",
+    "dev:web": "npm --prefix web run dev"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}

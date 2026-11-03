@@ -1,0 +1,8 @@
+{
+  "port": 3000,
+  "deepseek": {
+    "apiKey": "sk-ВПИШИТЕ_СВОЙ_КЛЮЧ_DEEPSEEK",
+    "model": "deepseek-chat",
+    "baseUrl": "https://api.deepseek.com/chat/completions"
+  }
+}
